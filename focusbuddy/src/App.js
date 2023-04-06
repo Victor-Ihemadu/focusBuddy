@@ -1,9 +1,12 @@
 import './App.css';
+import Settings from './Settings';
+import Timer from "./Timer"
 
 function App() {
   return (
    <main>
-    test
+    <Timer />
+    <Settings />
    </main>
   );
 }
