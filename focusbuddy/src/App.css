@@ -1,5 +1,5 @@
 body {
-  background-color:#30384b;
+  background-color: #30384b;
   color: #eee;
 }
 
@@ -10,10 +10,31 @@ main {
   text-align: center;
 }
 
-button{
+button {
   background-color: transparent;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   border: 0;
   display: inline-block;
   width: 100px;
+  cursor: pointer;
+}
+
+button.with-text {
+  width: 60px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1px 1px;
+  font-size: 1.4rem;
+  line-height: 3px;
+}
+
+button.with-text svg {
+  width: 60px;
+  float: left;
+  margin-right: 5px;
+}
+
+label{
+  display: block;
 }
